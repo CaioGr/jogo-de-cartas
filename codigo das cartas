@@ -1,0 +1,77 @@
+#include <iostream>
+
+ using namespace std;
+
+    double caio;
+    double ruan;
+    int caiocartaUataque = 1.000;
+    int caiocartaDataque = 500;
+    int caiocartaTataque = 600;
+    int caiocartaQataque = 100;
+    int caiocartaCataque = 300;
+    int ruancartaUataque = 500;
+    int ruancartaDataque = 300;
+    int ruancartaTataque = 100;
+    int ruancartaQataque = 600;
+    int ruancartaCataque = 700;
+
+  int main(){
+
+      cout << "jogue suas cartas primeiro caio depois ruan" << endl;
+
+      cout << "eu escolho a carta:" << endl;
+      cin >> caio;
+
+      cout << "eu escolho a carta:" << endl;
+      cin >> ruan;
+
+            if(caio == 1 && ruan == 1){
+                cout << "caio vence" << endl;
+            }else if(caio == 1 && ruan == 2){
+                cout << "caio vence" << endl;
+            }else if(caio == 1 && ruan == 3){
+                cout << "caio vence" << endl;
+            }else if(caio == 1 && ruan == 4){
+                cout << "caio vence" << endl;
+            }else if(caio == 1 && ruan == 5){
+                cout << "caio vence" << endl;
+            }else if(caio == 2 && ruan == 1){
+                cout << "empate" << endl;
+            }else if(caio == 2 && ruan == 2){
+                cout << "caio vence" << endl;
+            }else if(caio == 2 && ruan == 3){
+                cout << "caio vence" << endl;
+            }else if(caio == 2 && ruan == 4){
+                cout << "empate"<< endl;
+            }else if(caio == 2 && ruan == 5){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 3 && ruan == 1){
+                cout << "caio vence"<< endl;
+            }else if(caio == 3 && ruan == 2){
+                cout << "caio vence"<< endl;
+            }else if(caio == 3 && ruan == 3){
+                cout << "empate"<< endl;
+            }else if(caio == 3 && ruan == 4){
+                cout << "caio vence"<< endl;
+            }else if(caio == 3 && ruan == 5){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 4 && ruan == 1){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 4 && ruan == 2){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 4 && ruan == 5){
+                cout << "ruan vence"<< endl;
+            }else if(caio ==  5 && ruan == 1){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 5 && ruan == 2){
+                cout << "empate"<< endl;
+            }else if(caio == 5 && ruan == 3){
+                cout << "caio vence"<< endl;
+            }else if(caio == 5 && ruan == 4){
+                cout << "ruan vence"<< endl;
+            }else if(caio == 5 && ruan == 5){
+                cout << "ruan vence"<< endl;
+            }else{
+                cout << "nao reconheci essa carta" << endl;
+            }
+  }
